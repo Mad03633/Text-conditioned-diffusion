@@ -16,17 +16,19 @@ export default function GeneratorForm() {
     setLoading(true);
     setGeneratedImage(null);
 
+    const digitIndex = DIGITS.indexOf(text);
+
     try {
       const response = await fetch("http://localhost:8000/generate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ text })
+        body: JSON.stringify({ digit: digitIndex })
       });
 
       const data = await response.json();
 
       if (data.image) {
-        setGeneratedImage(data.image);
+        setGeneratedImage(`data:image/png;base64,${data.image}`);
       } else {
         alert("Error: " + data.error);
       }
@@ -42,7 +44,7 @@ export default function GeneratorForm() {
   return (
     <div className="bg-gray-800 p-8 rounded-xl shadow-xl w-[450px]">
       <h2 className="text-2xl font-bold text-center mb-6">
-        Enter Prompt
+        Generate a Digit
       </h2>
 
       <label className="block text-gray-300 mb-2">
