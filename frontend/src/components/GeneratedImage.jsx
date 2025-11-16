@@ -4,10 +4,11 @@ export default function GeneratedImage({ image }) {
   return (
     <div className="mt-6 p-4 bg-gray-800 rounded-xl shadow-xl text-center">
       <h2 className="text-xl font-semibold mb-3">Generated Image</h2>
-      <img 
-        src={image} 
-        alt="Generated digit" 
-        className="mx-auto border border-gray-600 rounded-lg"
+      <img
+        src={image}
+        alt="Generated digit"
+        className="mx-auto border border-gray-600 rounded-lg 
+                   w-48 h-48 md:w-56 md:h-56 object-contain"
       />
     </div>
   );
