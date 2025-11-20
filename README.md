@@ -48,11 +48,11 @@ npm start
 ## Results
 The results of the generation: 
     - Good quality
-    ![](C:\Users\user\Desktop\AI_Essentials\good.jpg)
+    ![](images/good.jpg)
     - Medium quality
-    ![](C:\Users\user\Desktop\AI_Essentials\medium.jpg)
-    - Bad quality
-    ![](C:\Users\user\Desktop\AI_Essentials\bad.jpg)
+    ![](images/medium.jpg)
+    - Bad quality (more generated)
+    ![](images/bad.jpg)
 
 ## Model architecture
 
