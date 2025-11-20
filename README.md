@@ -48,6 +48,7 @@ npm start
 ## Results
 - The results of the generation: 
     - Good quality
+    
     ![](images_for_readme/good.jpg)
     - Medium quality
     ![](images_for_readme/medium.jpg)
