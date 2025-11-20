@@ -1,2 +1,4 @@
 /env
 /frontend/node_modules
+/backend/__pycache__
+/training_logs
