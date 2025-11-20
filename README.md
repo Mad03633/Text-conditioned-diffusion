@@ -46,13 +46,13 @@ npm start
 3. Click Generate → Trigger backend → Display image
 
 ## Results
-The results of the generation: 
+- The results of the generation: 
     - Good quality
-    ![image](images/good.jpg)
+    ![](images/good.jpg)
     - Medium quality
-    ![image](images/medium.jpg)
+    ![](images/medium.jpg)
     - Bad quality (more generated)
-    ![image](images/bad.jpg)
+    ![](images/bad.jpg)
 
 ## Model architecture
 
