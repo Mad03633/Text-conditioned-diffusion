@@ -39,12 +39,20 @@ cd frontend
 npm install
 npm start
 ```
-1. Then open http://localhost:3000
+1. Then open ://localhost:3000
 
 2. Choose digit description (“zero”, “one”, …)
 
 3. Click Generate → Trigger backend → Display image
 
+## Results
+The results of the generation: 
+    - Good quality
+    ![](C:\Users\user\Desktop\AI_Essentials\good.jpg)
+    - Medium quality
+    ![](C:\Users\user\Desktop\AI_Essentials\medium.jpg)
+    - Bad quality
+    ![](C:\Users\user\Desktop\AI_Essentials\bad.jpg)
 
 ## Model architecture
 
