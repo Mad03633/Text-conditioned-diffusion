@@ -48,11 +48,11 @@ npm start
 ## Results
 - The results of the generation: 
     - Good quality
-    ![](images/good.jpg)
+    ![](images_for_readme/good.jpg)
     - Medium quality
-    ![](images/medium.jpg)
+    ![](images_for_readme/medium.jpg)
     - Bad quality (more generated)
-    ![](images/bad.jpg)
+    ![](images_for_readme/bad.jpg)
 
 ## Model architecture
 
